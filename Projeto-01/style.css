@@ -40,6 +40,10 @@ p,
   line-height: 28px;
 }
 
+#footer {
+  margin-bottom: 33px;
+}
+
 a + a {
   margin-left: 28px;
 }
@@ -49,4 +53,8 @@ a + a {
   height: 0px;
   border: 1px solid #eceff2;
   margin: 0 auto 8px;
+}
+
+#ball {
+  position: fixed;
 }
