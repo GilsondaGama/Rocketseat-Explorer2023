@@ -55,6 +55,8 @@ a + a {
   margin: 0 auto 8px;
 }
 
-#ball {
+#balls {
   position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
