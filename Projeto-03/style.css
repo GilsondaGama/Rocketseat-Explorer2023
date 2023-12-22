@@ -61,7 +61,7 @@ form {
 
   margin-top: 38px;
   background: #fafafc;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
   min-height: 300px;
 
   padding: 64px;
@@ -186,4 +186,39 @@ fieldset legend {
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+  height: 136px;
+  padding: 40px 60px;
+  margin-bottom: 100px;
+
+  background: #f0f0f4;
+  border-top: 1px solid #d6d6d6;
+  border-radius: 0 0 8px 8px;
+}
+
+footer .button {
+  height: 56px;
+
+  background: #04d361;
+  border-radius: 8px;
+  border: none;
+
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+
+  cursor: pointer;
+
+  transition: background 0.2s;
+}
+
+footer .button:hover {
+  background: #04bf58;
 }
