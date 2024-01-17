@@ -17,22 +17,24 @@ input {
 }
 
 body {
+  font-size: 1.6rem;
   background-color: #f4fcff;
+  color: #121214;
 }
 
-header form {
-  flex: 1;
-}
-
-.header-container {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #387e96;
 
   height: 7.2rem;
-  padding: 12px 28px;
+  padding: 1.2rem 2.8rem;
   gap: 25.5px;
+
+  form {
+    flex: 1;
+  }
 }
 
 .logo {
@@ -52,7 +54,7 @@ header form {
 
 .input-wrapper input {
   width: 100%;
-  padding: 1.2rem 1.6rem;
+  padding: 1.2rem 1.4rem;
 
   border: 0;
   border-radius: 4px;
@@ -71,4 +73,30 @@ header form {
   height: 4.2rem;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.container {
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  h1 {
+    padding: 2.2rem;
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 38.4px */
+  }
+
+  p {
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    padding: 2.2rem;
+  }
 }
