@@ -22,7 +22,7 @@ body {
   color: #121214;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,26 +76,53 @@ body {
 }
 
 .container {
-  img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-  }
+  display: flex;
+  flex-direction: column;
+}
 
-  h1 {
-    margin: 3rem 2.6rem 8px;
-    font-size: 2.4rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 160%; /* 38.4px */
-  }
+.hero img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
 
-  p {
-    margin: 3rem 2.6rem;
-    font-family: Mulish;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 25.6px */
-  }
+.likes {
+  margin: 8px 26px 0 26px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.likes img {
+  size: 16px;
+  padding: 12px;
+  background: #065e7c;
+  border-radius: 50%;
+}
+
+.container h1 {
+  margin: 30px 26px 0 26px;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 38.4px */
+}
+
+.container p {
+  margin: 30px 26px;
+  font-family: Mulish;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #387e96;
+
+  height: 7.2rem;
 }
