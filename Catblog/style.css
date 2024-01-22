@@ -125,6 +125,9 @@ main {
 }
 
 article {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 3.2rem 2.6rem;
   gap: 3.2rem;
 }
@@ -167,4 +170,21 @@ footer {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 3.2rem;
+  }
+
+  main-div {
+    max-width: 30rem;
+  }
+
+  article {
+    max-width: 50rem;
+  }
 }
