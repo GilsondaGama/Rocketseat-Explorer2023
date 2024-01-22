@@ -40,21 +40,28 @@ main {
   gap: 48px 60px;
 }
 
-.card {
+.article-card {
   background: #202024;
   border: 2px solid #323238;
   border-radius: 8px;
   overflow: hidden;
 }
 
-.card h2 {
+.article-card h2 {
   color: #e1e1e6;
   font-weight: 900;
   font-size: 36px;
   padding: 24px 32px 0;
 }
 
-.card p {
+.article-card h2 {
+  color: #e1e1e6;
+  font-weight: 900;
+  font-size: 36px;
+  padding: 24px 32px 0;
+}
+
+.article-card p {
   color: #c4c4cc;
   font-size: 18px;
   font-weight: 600;
